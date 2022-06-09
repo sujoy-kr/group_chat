@@ -1,0 +1,229 @@
+body {
+    background-color: #709982;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* index.html file styles */
+
+#joinInfo {
+    margin: auto;
+    width: 280px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#joinInfo h2 {
+    margin-top: 0;
+    color: #709982;
+    text-align: center;
+}
+
+#joinInfo label {
+    width: 100%;
+    font-size: 16px;
+}
+
+#joinInfo input {
+    width: 100%;
+    font-size: 16px;
+    height: 30px;
+    padding: 0px;
+    border: none;
+    background-color: #70998245;
+}
+
+#joinInfo input:focus {
+    outline: none
+}
+
+#joinInfo select:focus {
+    outline: none
+}
+
+#joinInfo button {
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #709982;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#joinInfo select {
+    width: 100%;
+    font-size: 16px;
+    height: 30px;
+    background-color: #70998245;
+    border: none;
+}
+
+/* chat.html file styles */
+
+#chatBoard {
+    width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+#heading {
+    display: flex;
+    padding: 20px;
+    background-color: #a5d2b94e;
+}
+
+#heading * {
+    justify-content: space-between;
+}
+
+#groupName {
+    font-weight: bold;
+    font-size: 35px;
+    color: #709982;
+}
+
+#leaveGroupBtn {
+    margin-left: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background-color: #709982;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#sendMessage {
+    padding: 20px;
+
+    display: flex;
+    background-color: #a5d2b94e;
+}
+
+#sendMessage * {
+    justify-content: space-between;
+}
+
+#sendMessage button {
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+    background-color: #709982;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+#sendMessage input {
+    width: 100%;
+    border: none;
+    padding: 5px
+}
+
+#sendMessage input:focus {
+    outline: none
+}
+
+#messageBoard {
+    display: flex;
+}
+
+#messageBoard * {
+    flex: 0 auto;
+}
+
+#messages {
+    width: 100%;
+
+}
+
+#activeUsers {
+    padding: 20px;
+    width: 25%;
+    font-size: 18px;
+    color: #709982;
+    background-color: #a5d2b94e
+}
+
+#activeUsers ul {
+    list-style: none;
+    padding: 0;
+}
+
+#activeUsers .activeUsersText {
+    font-weight: bold;
+    letter-spacing: .5px
+}
+
+#activeUsers li {
+    margin-bottom: 5px
+}
+
+#messages {
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 20px;
+    margin-right: 0;
+    height: 300px;
+    background-color: #a5d2b94e;
+    overflow-y: scroll
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #709982a9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #709982d9;
+}
+
+
+#messages .message {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+#messages .message p {
+    margin: 0;
+}
+
+#messages .message .nameTime {
+    color: #70998295;
+}
+
+#messages .message .nameTime span {
+    font-weight: bold;
+    letter-spacing: .5px
+}
+
+#messages .message .sentMessage {
+    color: #688c77;
+    font-size: 20px;
+}
