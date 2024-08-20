@@ -1,3 +1,3 @@
-## A group chat project made with socket.io
+## Group Chat
 
-Live demo: https://group-chat-project.herokuapp.com
+Explore my Group Chat project on [sujoykr.pages.dev](https://sujoykr.pages.dev/groupchat).
